@@ -1,3 +1,3 @@
 # odin-recipes
 
-A simple website using html tags to list recipes.
+A simple website using html and css to list recipes.
