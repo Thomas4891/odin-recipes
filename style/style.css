@@ -2,18 +2,42 @@ body {
     background-color: lightblue;
     font-family: Arial, Verdana, Tahoma;
     text-align: center;
+    padding-inline: 20%;
 }
 
-ul {
-    display: table;
-    margin: 0 auto;
+h1, h2, h3 {
+    font-family: "Brush Script MT";
+    font-weight: bolder;
+    color: black;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+p {
+    font-size: larger;
+}
+
+.container {
+    text-align: center;
+}
+
+.center-list {
+    display: inline-block;
     text-align: left;
 }
 
-ol {
-    display: table;
-    margin:0 auto;
-    text-align: left;
+.container .center-list {
+    font-size: larger;
 }
 
 .center {
