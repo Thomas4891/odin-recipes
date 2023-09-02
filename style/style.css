@@ -1,0 +1,25 @@
+body {
+    background-color: lightblue;
+    font-family: Arial, Verdana, Tahoma;
+    text-align: center;
+}
+
+ul {
+    display: table;
+    margin: 0 auto;
+    text-align: left;
+}
+
+ol {
+    display: table;
+    margin:0 auto;
+    text-align: left;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    width: auto;
+}
