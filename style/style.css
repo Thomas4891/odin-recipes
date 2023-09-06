@@ -7,44 +7,44 @@ body {
     color: black;
 }
 
-p {
-    font-size: larger;
-    padding: 1rem;
-}
-
 h1, h2, h3 {
     font-family: "Brush Script MT";
     font-weight: bolder;
     background-color: rgb(0, 165, 165);
     padding: 15px;
     width: fit-content;
-}
-
-.body-border {
-    background-color: rgb(0, 165, 165);
-    padding: 2rem;
-}
-
-h1 {
-    font-size: 4rem;
     margin: 3rem auto;
 }
 
+h1 {
+    font-size: 4vw;
+}
+
 h2 {
-    font-size: 3rem;
-    margin: 2rem auto;
+    font-size: 3vw;
 }
 
 h3 {
-    font-size: 2rem;
-    margin: 2rem auto;
+    font-size: 2.5vw;
 }
 
 li.border {
     background-color: rgb(0, 165, 165);
     width: auto;
     padding: 5px 10px 5px 10px;
-    margin-bottom: 1rem;
+    margin: 1rem;
+    font-size: 1.5vw;
+}
+
+div.border {
+    background-color: rgb(0, 165, 165);
+    width: auto;
+    padding: 5px 10px 5px 10px;
+}
+
+div.border.para {
+    margin-bottom: 4rem;
+    font-size: 1.5vw;
 }
 
 .list-container {
@@ -54,7 +54,6 @@ li.border {
 .list {
     display: inline-block;
     text-align: left;
-    font-size: larger;
     list-style-position: inside;
     padding-left: 0;
 }
@@ -70,5 +69,5 @@ li.border {
     display: block;
     margin: 3rem auto;
     height: auto;
-    width: auto;
+    width: 90%;
 }
