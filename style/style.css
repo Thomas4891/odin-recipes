@@ -1,49 +1,74 @@
 body {
-    background-color: lightblue;
+    background-color: cyan;
     font-family: Arial, Verdana, Tahoma;
-    text-align: center;
-    padding-inline: 20%;
+    text-align: left;
+    margin-left: 20%;
+    margin-right: 20%;
+    color: black;
+}
+
+p {
+    font-size: larger;
+    padding: 1rem;
 }
 
 h1, h2, h3 {
     font-family: "Brush Script MT";
     font-weight: bolder;
-    color: black;
+    background-color: rgb(0, 165, 165);
+    padding: 15px;
+    width: fit-content;
+}
+
+.body-border {
+    background-color: rgb(0, 165, 165);
+    padding: 2rem;
 }
 
 h1 {
     font-size: 4rem;
+    margin: 3rem auto;
 }
 
 h2 {
     font-size: 3rem;
+    margin: 2rem auto;
 }
 
 h3 {
     font-size: 2rem;
+    margin: 2rem auto;
 }
 
-p {
-    font-size: larger;
+li.border {
+    background-color: rgb(0, 165, 165);
+    width: auto;
+    padding: 5px 10px 5px 10px;
+    margin-bottom: 1rem;
 }
 
-.container {
+.list-container {
     text-align: center;
 }
 
-.center-list {
+.list {
     display: inline-block;
     text-align: left;
-}
-
-.container .center-list {
     font-size: larger;
+    list-style-position: inside;
+    padding-left: 0;
 }
 
-.center {
+.border {
+    border-style: ridge;
+    border-width: 10px;
+    border-color: rgb(0, 90, 90);
+    border-radius: 20px;
+}
+
+.image {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 3rem auto;
     height: auto;
     width: auto;
 }
